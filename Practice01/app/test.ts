@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
+import { NgSemanticModule } from 'ng-semantic';
 
 @Component({
-    selector: 'my-app',
+    selector: 'test',
     template: `
-        <h1>{{title}}</h1>
-        <h2>My favorite hero is: {{myHero}}</h2>
+        <h1>TEST</h1>
     `
 })
 
-export class AppComponent {
+export class Test {
     title = 'hello';
 
     myHero = 'Windstorm';
